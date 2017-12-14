@@ -1,4 +1,5 @@
 ﻿using ShopCarsInfo;
+using System.Collections.Generic;
 
 namespace ShopCars.Controller
 {
@@ -13,6 +14,7 @@ namespace ShopCars.Controller
         {
             FormCarListClient formCarListClient = new FormCarListClient();
             //TODO Dialog
+            
             formCarListClient.ShowDialog();
         }
     }

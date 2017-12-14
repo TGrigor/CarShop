@@ -25,6 +25,8 @@ namespace ShopCars
             _brandController = new BrandController();
             _modelController = new ModelController();
             FormUtils.AddBrandToList(ref comboBoxBrands, ref _brandController);
+
+            FormUtils.AddCarsToListView(lvCarList);
         }
 
         private void comboBoxBrands_SelectedIndexChanged(object sender, EventArgs e)
@@ -41,6 +43,11 @@ namespace ShopCars
         private void btnBuy_Click(object sender, EventArgs e)
         {
             //TODO Buy logic and creat isDeleted bool in XML
+        }
+
+        private void lvCarList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

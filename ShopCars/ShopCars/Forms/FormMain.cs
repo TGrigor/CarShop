@@ -9,6 +9,8 @@ namespace ShopCars
     public partial class FormMain : Form
     {
         LoginController _loginController;
+        CarController _carController;
+
         public FormMain()
         {
             InitializeComponent();

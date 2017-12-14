@@ -49,12 +49,14 @@
             this.Price});
             this.lvCarList.FullRowSelect = true;
             this.lvCarList.GridLines = true;
-            this.lvCarList.Location = new System.Drawing.Point(12, 41);
+            this.lvCarList.Location = new System.Drawing.Point(16, 50);
+            this.lvCarList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvCarList.Name = "lvCarList";
-            this.lvCarList.Size = new System.Drawing.Size(439, 131);
+            this.lvCarList.Size = new System.Drawing.Size(584, 160);
             this.lvCarList.TabIndex = 4;
             this.lvCarList.UseCompatibleStateImageBehavior = false;
             this.lvCarList.View = System.Windows.Forms.View.Details;
+            this.lvCarList.SelectedIndexChanged += new System.EventHandler(this.lvCarList_SelectedIndexChanged);
             // 
             // Brand
             // 
@@ -78,9 +80,10 @@
             // 
             // btnAddBrand
             // 
-            this.btnAddBrand.Location = new System.Drawing.Point(12, 12);
+            this.btnAddBrand.Location = new System.Drawing.Point(16, 15);
+            this.btnAddBrand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddBrand.Name = "btnAddBrand";
-            this.btnAddBrand.Size = new System.Drawing.Size(75, 23);
+            this.btnAddBrand.Size = new System.Drawing.Size(100, 28);
             this.btnAddBrand.TabIndex = 0;
             this.btnAddBrand.Text = "Add Brand";
             this.btnAddBrand.UseVisualStyleBackColor = true;
@@ -88,9 +91,10 @@
             // 
             // btnAddModel
             // 
-            this.btnAddModel.Location = new System.Drawing.Point(93, 12);
+            this.btnAddModel.Location = new System.Drawing.Point(124, 15);
+            this.btnAddModel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddModel.Name = "btnAddModel";
-            this.btnAddModel.Size = new System.Drawing.Size(75, 23);
+            this.btnAddModel.Size = new System.Drawing.Size(100, 28);
             this.btnAddModel.TabIndex = 1;
             this.btnAddModel.Text = "Add Model";
             this.btnAddModel.UseVisualStyleBackColor = true;
@@ -98,9 +102,10 @@
             // 
             // btbAddCar
             // 
-            this.btbAddCar.Location = new System.Drawing.Point(174, 12);
+            this.btbAddCar.Location = new System.Drawing.Point(232, 15);
+            this.btbAddCar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btbAddCar.Name = "btbAddCar";
-            this.btbAddCar.Size = new System.Drawing.Size(75, 23);
+            this.btbAddCar.Size = new System.Drawing.Size(100, 28);
             this.btbAddCar.TabIndex = 2;
             this.btbAddCar.Text = "Add Car";
             this.btbAddCar.UseVisualStyleBackColor = true;
@@ -108,23 +113,25 @@
             // 
             // btnRevenue
             // 
-            this.btnRevenue.Location = new System.Drawing.Point(376, 12);
+            this.btnRevenue.Location = new System.Drawing.Point(501, 15);
+            this.btnRevenue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRevenue.Name = "btnRevenue";
-            this.btnRevenue.Size = new System.Drawing.Size(75, 23);
+            this.btnRevenue.Size = new System.Drawing.Size(100, 28);
             this.btnRevenue.TabIndex = 3;
             this.btnRevenue.Text = "Revenue";
             this.btnRevenue.UseVisualStyleBackColor = true;
             // 
             // FormCarListAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 186);
+            this.ClientSize = new System.Drawing.Size(621, 229);
             this.Controls.Add(this.btnRevenue);
             this.Controls.Add(this.btbAddCar);
             this.Controls.Add(this.btnAddModel);
             this.Controls.Add(this.btnAddBrand);
             this.Controls.Add(this.lvCarList);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormCarListAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

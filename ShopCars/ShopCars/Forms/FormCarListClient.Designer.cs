@@ -44,43 +44,48 @@
             // lblBrands
             // 
             this.lblBrands.AutoSize = true;
-            this.lblBrands.Location = new System.Drawing.Point(12, 9);
+            this.lblBrands.Location = new System.Drawing.Point(16, 11);
+            this.lblBrands.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBrands.Name = "lblBrands";
-            this.lblBrands.Size = new System.Drawing.Size(35, 13);
+            this.lblBrands.Size = new System.Drawing.Size(46, 17);
             this.lblBrands.TabIndex = 0;
             this.lblBrands.Text = "Brand";
             // 
             // comboBoxBrands
             // 
             this.comboBoxBrands.FormattingEnabled = true;
-            this.comboBoxBrands.Location = new System.Drawing.Point(12, 25);
+            this.comboBoxBrands.Location = new System.Drawing.Point(16, 31);
+            this.comboBoxBrands.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxBrands.Name = "comboBoxBrands";
-            this.comboBoxBrands.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxBrands.Size = new System.Drawing.Size(160, 24);
             this.comboBoxBrands.TabIndex = 0;
             this.comboBoxBrands.SelectedIndexChanged += new System.EventHandler(this.comboBoxBrands_SelectedIndexChanged);
             // 
             // lblModels
             // 
             this.lblModels.AutoSize = true;
-            this.lblModels.Location = new System.Drawing.Point(213, 9);
+            this.lblModels.Location = new System.Drawing.Point(284, 11);
+            this.lblModels.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblModels.Name = "lblModels";
-            this.lblModels.Size = new System.Drawing.Size(36, 13);
+            this.lblModels.Size = new System.Drawing.Size(46, 17);
             this.lblModels.TabIndex = 1;
             this.lblModels.Text = "Model";
             // 
             // comboBoxModels
             // 
             this.comboBoxModels.FormattingEnabled = true;
-            this.comboBoxModels.Location = new System.Drawing.Point(216, 25);
+            this.comboBoxModels.Location = new System.Drawing.Point(288, 31);
+            this.comboBoxModels.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxModels.Name = "comboBoxModels";
-            this.comboBoxModels.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxModels.Size = new System.Drawing.Size(160, 24);
             this.comboBoxModels.TabIndex = 1;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(393, 25);
+            this.btnSearch.Location = new System.Drawing.Point(524, 31);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(25, 23);
+            this.btnSearch.Size = new System.Drawing.Size(33, 28);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -94,12 +99,14 @@
             this.Price});
             this.lvCarList.FullRowSelect = true;
             this.lvCarList.GridLines = true;
-            this.lvCarList.Location = new System.Drawing.Point(12, 65);
+            this.lvCarList.Location = new System.Drawing.Point(16, 80);
+            this.lvCarList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvCarList.Name = "lvCarList";
-            this.lvCarList.Size = new System.Drawing.Size(325, 280);
+            this.lvCarList.Size = new System.Drawing.Size(432, 344);
             this.lvCarList.TabIndex = 3;
             this.lvCarList.UseCompatibleStateImageBehavior = false;
             this.lvCarList.View = System.Windows.Forms.View.Details;
+            this.lvCarList.SelectedIndexChanged += new System.EventHandler(this.lvCarList_SelectedIndexChanged);
             // 
             // Brand
             // 
@@ -122,9 +129,10 @@
             // 
             // btnBuy
             // 
-            this.btnBuy.Location = new System.Drawing.Point(343, 65);
+            this.btnBuy.Location = new System.Drawing.Point(457, 80);
+            this.btnBuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuy.Name = "btnBuy";
-            this.btnBuy.Size = new System.Drawing.Size(75, 23);
+            this.btnBuy.Size = new System.Drawing.Size(100, 28);
             this.btnBuy.TabIndex = 4;
             this.btnBuy.Text = "Buy";
             this.btnBuy.UseVisualStyleBackColor = true;
@@ -132,9 +140,9 @@
             // 
             // FormCarListClient
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(428, 357);
+            this.ClientSize = new System.Drawing.Size(571, 439);
             this.Controls.Add(this.btnBuy);
             this.Controls.Add(this.lvCarList);
             this.Controls.Add(this.btnSearch);
@@ -142,6 +150,7 @@
             this.Controls.Add(this.lblModels);
             this.Controls.Add(this.comboBoxBrands);
             this.Controls.Add(this.lblBrands);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormCarListClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

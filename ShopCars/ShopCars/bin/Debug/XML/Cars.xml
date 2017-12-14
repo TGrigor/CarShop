@@ -12,4 +12,22 @@
     <Price>20000</Price>
     <ColorName>ff004000</ColorName>
   </Car>
+  <Car>
+    <CarId>1028906766</CarId>
+    <ModelName>M3</ModelName>
+    <Price>12312</Price>
+    <ColorName>Navy</ColorName>
+  </Car>
+  <Car>
+    <CarId>1297273780</CarId>
+    <ModelName>M3</ModelName>
+    <Price>121</Price>
+    <ColorName>ActiveCaptionText</ColorName>
+  </Car>
+  <Car>
+    <CarId>421491644</CarId>
+    <ModelName>M3</ModelName>
+    <Price>12</Price>
+    <ColorName>ActiveCaptionText</ColorName>
+  </Car>
 </Cars>

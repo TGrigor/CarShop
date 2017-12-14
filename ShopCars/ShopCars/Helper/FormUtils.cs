@@ -39,5 +39,19 @@ namespace ShopCars.Helper
             comboBoxBrand.ValueMember = "Key";
             comboBoxBrand.DisplayMember = "Value";
         }
+
+        public static void AddCarsToListView(ListView listView)
+        {
+            CarController _carController = new CarController();
+            List<CarInfo> cars = _carController.GetCars();
+            foreach (var car in cars)
+            {
+                ListViewItem lvi = new ListViewItem();
+                lvi.SubItems.Add(car.ModelName);
+                lvi.SubItems.Add(car.ColorName);
+                lvi.SubItems.Add(car.Price.ToString());
+                listView.Items.Add(lvi);
+            }
+        }
     }
 }

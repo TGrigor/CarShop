@@ -1,4 +1,7 @@
-﻿using ShopCarsRepository.Repositories;
+﻿using ShopCars.Controller;
+using ShopCars.Helper;
+using ShopCarsInfo;
+using ShopCarsRepository.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -10,6 +13,7 @@ namespace ShopCars
         public FormCarListAdmin()
         {
             InitializeComponent();
+            FormUtils.AddCarsToListView(lvCarList);
         }
 
         private void btnAddBrand_Click(object sender, EventArgs e)
@@ -33,6 +37,11 @@ namespace ShopCars
             {
                 
             }
+        }
+
+        private void lvCarList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
