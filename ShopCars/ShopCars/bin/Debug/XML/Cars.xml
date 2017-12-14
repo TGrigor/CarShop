@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Cars>
+  <Car>
+    <CarId>0</CarId>
+    <ModelName>X5</ModelName>
+    <Price>10000</Price>
+    <ColorName>Black</ColorName>
+  </Car>
+  <Car>
+    <CarId>169007791</CarId>
+    <ModelName>C 280</ModelName>
+    <Price>20000</Price>
+    <ColorName>ff004000</ColorName>
+  </Car>
+</Cars>

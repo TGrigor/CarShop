@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Brands>
+  <Brand>
+    <BrandId>0</BrandId>
+    <Name>BMW</Name>
+  </Brand>
+  <Brand>
+    <BrandId>1661451013</BrandId>
+    <Name>Mercedes-Benz</Name>
+  </Brand>
+</Brands>

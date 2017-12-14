@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<Models>
+  <Model>
+    <BrandId>0</BrandId>
+    <ModelName>M3</ModelName>
+  </Model>
+  <Brand>
+    <BrandId>346346432</BrandId>
+    <ModelName>M5</ModelName>
+  </Brand>
+  <Brand>
+    <BrandId>345346436</BrandId>
+    <ModelName>Vectra</ModelName>
+  </Brand>
+  <Brand>
+    <BrandId>1661451013</BrandId>
+    <ModelName>C 280</ModelName>
+  </Brand>
+</Models>

@@ -1,0 +1,8 @@
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\bin\Debug\ShopCarsRepository.dll
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\bin\Debug\ShopCarsRepository.pdb
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\bin\Debug\ShopCarsInfo.dll
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\bin\Debug\ShopCarsInfo.pdb
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\obj\Debug\ShopCarsRepository.csprojResolveAssemblyReference.cache
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\obj\Debug\ShopCarsRepository.csproj.CoreCompileInputs.cache
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\obj\Debug\ShopCarsRepository.dll
+C:\Users\misha\Desktop\ShopCars\ShopCarsRepository\obj\Debug\ShopCarsRepository.pdb
